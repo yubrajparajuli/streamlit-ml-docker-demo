@@ -15,14 +15,14 @@ A simple machine learning project built to learn Streamlit and Docker.
 
 ## Run Locally
 
-
-pip install -r requirements.txt
-python train_model.py
-streamlit run main.py
-
+```bash
+pip install -r requirements.txt  
+python train_model.py  
+streamlit run main.py  
+```
 ---
 
-## Run with Docker
-
+## Docker Run
+```bash
 docker build -t streamlit-demo .  
-docker run -p 8501:8501 streamlit-demo
+docker run -p 8501:8501 streamlit-demo  

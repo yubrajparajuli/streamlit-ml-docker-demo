@@ -16,7 +16,7 @@ A simple machine learning project built to learn Streamlit and Docker.
 ## Run Locally
 
 pip install -r requirements.txt  
-python train_model.py # it give model.pkl
+python train_model.py 
 streamlit run main.py
 
 ---
